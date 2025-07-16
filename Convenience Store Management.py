@@ -1,6 +1,10 @@
+# Grocery Store Management System
+# CBSE Class 12 Project by Kashish Sahai
+# Built with Python and MySQL
+
 import mysql.connector
 
-a=mysql.connector.connect(host='localhost',user='your_username',password='your_password')
+a=mysql.connector.connect(host='localhost',user='root',password='your_password')
 b=a.cursor()
 
 b.execute("create database if not exists  a9;")
